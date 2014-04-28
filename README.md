@@ -1,4 +1,0 @@
-learn-rails
-===========
-
-Starting place
