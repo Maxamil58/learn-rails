@@ -1,17 +1,19 @@
 <% content_for :title do %>Foobar Kadigan<% end %>
 <% content_for :description do %>Website of Foobar Kadigan<% end %>
 <section>
-<img src="http://lorempixel.com/1170/600/cats/1">
+<img src="http://lorempixel.com/400/200
+">
 </section>
 <section>
 <div class="column">
-<h2>Stay in touch.</h2>
+<h3>Read more 'About Us' and become engaged. Learn the benefits of this site. Sign up for the newsletter. Become a member and keep notified of new items in store that match your interest.</h3>
 </div>
 <div class="column">
-<div class="form-centered">
+<div class="form-right">
 <%= simple_form_for @visitor do |f| %>
 <%= f.error_notification %>
 <%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+<br/>
 <br/>
 <%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
 <% end %>

@@ -1,23 +1,18 @@
-<html>
-  <head>
-    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
-    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
-      title="Wrap Long Lines">
-  </head>
-  <body>
-    <pre>&lt;% content_for :title do %&gt;About&lt;% end %&gt;
-&lt;h3&gt;About Foobar Kadigan&lt;/h3&gt;
-&lt;p&gt;He was born in Waikikamukau, New Zealand. He left New Zealand for England, excelled
+<% content_for :title do %>About<% end %>
+<h3>About Foobar Kadigan</h3>
+<div class="column">
+<p>He was born in Waikikamukau, New Zealand. He left New Zealand for England, excelled
 at the University of Mopery, and served in the Royal Loamshire Regiment. While in
 service, he invented the kanuten valve used in the processing of unobtainium for
 industrial use. With a partner, Granda Fairbook, he founded Acme Manufacturing, later
 acquired by the Advent Corporation, to develop his discovery for use in the
-Turboencabulator. Mr. Kadigan is now retired and lives in Middlehampton with a favorite
-cat, where he raises Griadium frieda and collects metasyntactic variables.&lt;/p&gt;
-&lt;p&gt;His favorite quotation has always been:&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+Turboencabulator.</p>
+</div>
+<div class="column">
+<p> Mr. Kadigan is now retired and lives in Middlehampton with a favorite
+cat, where he raises Griadium frieda and collects metasyntactic variables.</p>
+</div>
+<p>His favorite quotation is:</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua.</p>
 
-</pre>
-  </body>
-</html>
